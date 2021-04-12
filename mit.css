@@ -1,0 +1,13 @@
+.fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body{
+    display: block;
+    text-align: center;
+    padding-left: 20vh;
+    padding-top: 20vh;
+    padding-right: 20vh;
+}
