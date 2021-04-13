@@ -1,0 +1,42 @@
+body{
+    display: block;
+    text-align: center;
+    padding: 15vh;
+    background-image: url(./mn.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    width: 100vh;
+    
+}
+
+.não{
+    display: block;
+    width: 11vh;
+    background-color: #259650;
+    color: white;
+   
+}
+
+.sim{
+    display: block;
+    height: 7vh;
+    width: 10vh;
+    background-color: #259650;
+    color: white;
+    
+}
+
+.seguir{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.responder{
+    display: block;
+    height: 6vh;
+    width: 30vh;
+    background-color: #259650;
+    color: white;
+    margin-left: 35.5vh;
+}
