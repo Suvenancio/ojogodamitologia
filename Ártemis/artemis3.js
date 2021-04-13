@@ -10,6 +10,8 @@ function historiaArtemis ()
         deu uma flexada nas costas de Orion e o matou. <br>
         Devido ao seu grande remorço, por ter matado seu amado Orion, Ártemis criou  a 
         constelação de Órion, para iliminar o céu e sempre lembrar de seu amor.
+        <p>
+        <a href="../index.html">JOGAR NOVAMENTE</a> </p>
 
         `)
     }

@@ -5,7 +5,7 @@ function historiaLoki ()
 
     if ( escolhaLoki== 1){
 
-        document.write( `<p>Você Falhou volte ao início</p> <a href="../Loki/loki.html">VOLTAR</a>   `)
+        document.write( `<p>Você Falhou volte ao início</p> <p> <a href="../index.html">JOGAR NOVAMENTE</a> </p>   `)
     }
     else if ( escolhaLoki== 2)
         {
