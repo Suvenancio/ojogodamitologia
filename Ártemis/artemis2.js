@@ -5,13 +5,18 @@ function historiaArtemis ()
 
     if ( escolhaArtemis== 2){
 
-        document.write( `Você Falhou volte ao inicio <a href="../Ártemis/artemis.html">VOLTAR</a>
+        document.write( `<p>VOCÊ FALHOU ! VOLTE AO INÍCIO</p>  <a href="./artemis.html">VOLTAR</a>
+        `)
+    }
+    else if ( escolhaArtemis==1){
+        document.write( `<p>PARABÉNS, VOCÊ AVANÇOU PARA PRÓXIMA FASE!</p>
+        <p>CLIQUE NO LINK PARA CONTINUAR </p> 
+        <p> <a href="./desafio3.html">Fase 3</a> </p>
         `)
     }
     else{
-        document.write( `Parabéns, você avançou para próxima fase!
-        Clique no link para continuar <a href="./desafio3.html">Fase 3</a>
-        `)
+        alert(`Opção Inválida`)
+        historiaArtemis()
     }
     
 }

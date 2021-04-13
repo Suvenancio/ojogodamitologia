@@ -5,12 +5,16 @@ function historiaAnubis ()
 
     if ( escolhaAnubis== 2){
 
-        document.write( `Você Falhou volte ao início <a href="../Anúbis/anubis.html">VOLTAR</a>   `)
+        document.write( `<p>VOCÊ FALHOU !</p> Volte ao início <a href="../Anúbis/anubis.html">VOLTAR</a>   `)
+    }
+    else if(escolhaAnubis==1){
+        document.write( `Parabéns, você chegou ao submundo! E agora vive em um mundo de almas boas. 
+        Parabéns! <p> <a href="../index.html">JOGAR NOVAMENTE</a> </p>
+        `)
     }
     else{
-        document.write( `Parabéns, você chegou ao submundo! E agora vive em um mundo de almas boas. 
-        Parabéns!
-        `)
+        alert(`Opção Inválida`)
+        historiaAnubis()
     }
     
 }
