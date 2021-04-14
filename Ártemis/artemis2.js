@@ -11,7 +11,7 @@ function historiaArtemis ()
     else if ( escolhaArtemis==1){
         document.write( `<p>PARABÉNS, VOCÊ AVANÇOU PARA PRÓXIMA FASE!</p>
         <p>CLIQUE NO LINK PARA CONTINUAR </p> 
-        <p> <a href="./desafio3.html">Fase 3</a> </p>
+        <p> <a href="./desafio3.html">FASE 3</a> </p>
         `)
     }
     else{

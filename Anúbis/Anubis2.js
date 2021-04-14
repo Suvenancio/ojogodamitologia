@@ -5,11 +5,11 @@ function historiaAnubis ()
 
     if ( escolhaAnubis== 2){
 
-        document.write( `<p>VOCÊ FALHOU !</p> Volte ao início <p> <a href="../index.html">JOGAR NOVAMENTE</a> </p>  `)
+        document.write( `<p>VOCÊ FALHOU ! </p><a href="../index.html">JOGAR NOVAMENTE</a> </p>  `)
     }
     else if(escolhaAnubis==1){
-        document.write( `Parabéns, você chegou ao submundo! E agora vive em um mundo de almas boas. 
-        Parabéns! <p> <a href="../index.html">JOGAR NOVAMENTE</a> </p>
+        document.write( `Parabéns, você chegou ao além vida! E agora vive em um mundo de almas boas. 
+        Desfrute ! <p> <a href="../index.html">JOGAR NOVAMENTE</a> </p>
         `)
     }
     else{

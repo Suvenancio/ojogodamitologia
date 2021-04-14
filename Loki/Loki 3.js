@@ -5,14 +5,15 @@ function historiaLoki ()
 
     if ( escolhaLoki== 1){
 
-        document.write( `<p>Você Falhou volte ao início</p> <p> <a href="../index.html">JOGAR NOVAMENTE</a> </p>   `)
+        document.write( `<p>VOCÊ FALHOU ! </p>
+         <p> <a href="../index.html">JOGAR NOVAMENTE</a> </p>   `)
     }
     else if ( escolhaLoki== 2)
         {
         document.write( `<p>PARABÉNS VOCÊ VENCEU ! </p>
         Apesar de Loki ter uma vida repleta de atitutes trapaceiras, muitas delas acabam por 
         benefeciar os deuses, e nesse caso não foi diferente. Thor foi ao casamento disfarçado de 
-        Freya, seguindo plano de Loki, e matou o gigante. Recuperando o seu martelo!
+        Freya, seguindo o plano de Loki, e matou o gigante. Recuperando o seu martelo!
         <p> <a href="../index.html">JOGAR NOVAMENTE</a> </p>
         `)
     }
